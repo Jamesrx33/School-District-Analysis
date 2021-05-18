@@ -24,7 +24,7 @@ This report is will show the effects of removing the 9th grade Math and Reading 
     > ![Old Top Five](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_Top_Five.png?raw=true) 
   * Edited:
     > ![New Top Five](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_Top_five.png?raw=true)
-* **Scores by Grade Level**:
+* **Scores by Grade Level**: Math and Reading averages by grade level were not affected by this change
   * Original -- Math Averages: 
     > ![Old Math Scores](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_Math_Scores_by_Grade.png?raw=true) 
   * Edited -- Math Averages:
@@ -33,41 +33,30 @@ This report is will show the effects of removing the 9th grade Math and Reading 
     > ![Old Reading Scores](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_Reading_Scores_By_Grade.png?raw=true) 
   * Edited -- Reading Averages:
     > ![New Reading Scores](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_Reading_Scores_By_Grade.png?raw=true)
-* **Scores by School Spending**:
+* **Scores by School Spending**: The Reading and Overall passing percentage for schools in the $630-644 bin went down
   * Original: 
-    > ![Old District Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_District_Summary.png?raw=true) 
+    > ![Old Spending Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_Per_School_Spending.png?raw=true) 
   * Edited:
-    > ![New District Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_District_Summary.png?raw=true)
-* **Scores by School Size**:
+    > ![New Spending Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_Per_School_Spending.png?raw=true)
+* **Scores by School Size**: The percent passing reading in the Medium bin went down
   * Original: 
-    > ![Old District Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_District_Summary.png?raw=true) 
+    > ![Old Size Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_Per_School_Size.png?raw=true) 
   * Edited:
-    > ![New District Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_District_Summary.png?raw=true)
-* **Scores by School Type**:
+    > ![New Size Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_Per_School_Size.png?raw=true)
+* **Scores by School Type**: Though Thomas High School was in the Charter Bin, all metrics were unaffected
   * Original: 
-    > ![Old District Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_District_Summary.png?raw=true) 
+    > ![Old Type Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_Per_School_Type.png?raw=true) 
   * Edited:
-    > ![New District Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_District_Summary.png?raw=true)
+    > ![New Type Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_Per_School_Type.png?raw=true)
 
 
 
 ---
 ## Summary
-This Election-Analysis script was able to process and display the results of nearly 370,000 votes in a matter of seconds. Given the following modifications (and assuming the same CSV raw data format), we can apply this script to any election of our choosing:
-* Implement an input box where a user can input the directory of the CSV file.
-   - **file_to_load** = input("Please enter the directory path to the CSV data file.")
-* Add to our conditional statement to account for a Tie
-   - **if (vote_percentage == winning_percentage):**
-   
-         winning_count = candidateVotes
-         winning_candidate = "There was a Tie, a recount is recommended."
-         winning_percentage = vote_percentage
-     **elif (candidateVotes > winning_count) and (vote_percentage > winning_percentage):**
-     
-         winning_count = candidateVotes
-         winning_candidate = candidate_name
-         winning_percentage = vote_percentage
-
-
+Replacing the 9th grade Math and Reading scores for Thomas High School had the following effects:
+1. All passing percentages and the average math score went down in the **District Summary**
+2. All averages and percentages went down for Thomas High School in the **School Summary**
+3. Reading and overall passing percentages for all schools spending $630-644 per student went down in the **Scores by School Spending Summary**
+4. The percent passing Reading in all schools with 1000-2000 total students went down in the **Scores by School Size Summary**
 ---
-## Reference Documentation - [Source Code Repository](https://github.com/Jamesrx33/election-analysis), [Download .zip file](https://github.com/Jamesrx33/election-analysis/archive/refs/heads/main.zip)
+## Reference Documentation - [Source Code Repository](https://github.com/Jamesrx33/School-District-Analysis), [Download .zip file](https://github.com/Jamesrx33/School-District-Analysis/archive/refs/heads/main.zip)
