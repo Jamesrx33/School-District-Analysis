@@ -25,10 +25,14 @@ This report is will show the effects of removing the 9th grade Math and Reading 
   * Edited:
     > ![New Top Five](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_Top_five.png?raw=true)
 * **Scores by Grade Level**:
-  * Original: 
-    > ![Old Math Scores](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_District_Summary.png?raw=true) 
-  * Edited:
-    > ![New District Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_District_Summary.png?raw=true)
+  * Original -- Math Averages: 
+    > ![Old Math Scores](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_Math_Scores_by_Grade.png?raw=true) 
+  * Edited -- Math Averages:
+    > ![New Math Scores](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_Math_Scores_by_Grade.png?raw=true)
+  * Original -- Reading Averages: 
+    > ![Old Reading Scores](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_Reading_Scores_By_Grade.png?raw=true) 
+  * Edited -- Reading Averages:
+    > ![New Reading Scores](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/New_Reading_Scores_By_Grade.png?raw=true)
 * **Scores by School Spending**:
   * Original: 
     > ![Old District Summary](https://github.com/Jamesrx33/School-District-Analysis/blob/main/Results/Old_District_Summary.png?raw=true) 
